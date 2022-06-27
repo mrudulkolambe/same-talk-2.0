@@ -14,7 +14,7 @@ const Intro = () => {
 			navigate('/signup')
 			clearInterval(interval)
 		}
-	}, 3000);
+	}, 5000);
 
 	return (
 		<>

@@ -19,10 +19,18 @@ body {
   width: 250px;
 }
 
-.text-color{
+.text-color {
   color: #4D39BE;
 }
 
-.a-color{
+.a-color {
   color: #05F2C8;
+}
+
+.btn-gradient {
+  background: linear-gradient(92.98deg, #4E5FFF 0%, #001AFF 94.98%);
+}
+
+.text-hover-color:hover {
+  color: #4D39BE;
 }

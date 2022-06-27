@@ -4,6 +4,8 @@ import SignUp from './pages/SignUp';
 import SplashComponent from './pages/SplashComponent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Nickname from './pages/Nickname';
+import Onboarding from './pages/Onboarding';
+import Filter from './pages/Filter';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="/intro" element={<Intro />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/nickname" element={<Nickname />} />
+          <Route path="/onboarding" element={<Onboarding />} />
+          <Route path="/questions" element={<Filter />} />
         </Routes>
       </BrowserRouter>
     </>
