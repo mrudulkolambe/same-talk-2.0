@@ -1,9 +1,7 @@
 import React from 'react'
-import FilterContainer from '../component/FilterContainer'
+import RoundedContainer from '../component/RoundedContainer'
 
-const Filter = () => {
-
-	const filters = ['Depression', 'Anxiety', 'Addiction', 'Advice', 'ADHD', 'Career', 'Loneliness', 'Fear', 'Confidence', 'Relationship', 'Stress', 'Positivity', 'Overthinking', 'Communication', 'Stammering', 'Suicide']
+const Filter = (props) => {
 
 	return (
 		<>
@@ -12,8 +10,8 @@ const Filter = () => {
 				<div className='text-4xl'>Mrudul, What bothers you the most.</div>
 				<div className='flex w-6/12 flex-wrap gap-4 gap-x-6 mt-12'>
 					{
-						filters.map((element) => {
-							return <FilterContainer key={element} text={element} />
+						props.filters.map((element) => {
+							return <RoundedContainer key={element} text={element} />
 						})
 					}
 				</div>

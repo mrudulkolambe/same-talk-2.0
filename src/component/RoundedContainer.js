@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FilterContainer = (props) => {
+const RoundedContainer = (props) => {
 	return (
 		<>
 			<div className='text-center px-3 py-2 rounded-full border hover:bg-white duration-300 text-hover-color font-semibold cursor-pointer w-max'>{props.text}</div>
@@ -8,4 +8,4 @@ const FilterContainer = (props) => {
 	)
 }
 
-export default FilterContainer
+export default RoundedContainer
